@@ -8,8 +8,6 @@ Note: ------------
 Information and original source of Donut.C can be found here: https://www.a1k0n.net/2011/07/20/donut-math.html
 
 This project was inspired by an Operating Systems class assignment and reading through Donut.c code to better understand how it works.
-
-Files will be uploaded upon completion removing certian portions of code (not required to run this instance) in order to maintain academic integrity. 
 -----------------
 
 Steps: 
