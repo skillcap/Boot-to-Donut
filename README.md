@@ -17,9 +17,3 @@ Steps:
 3. Recreate print functions
    As no operating exists, function library calls are unavailable, and new functions must be created to print in VGA text mode. VGA text mode supports 80 columns and 25 rows. Printing to the screen is accomplished by moving text and color codes to memory starting at the address 0xB8000 in a space of 80x25*2 bytes. The code for these portions can be seen in boot2.S and boot2.c.
 
-ToDo:
-
-4. Porting the Donut
-  After understanding the code in Donut better, we can replace print calls with our custom calls and modify the equations to confine it to the size of VGA text output (80x25). Since the Donuts default display length is divisible 80, this process is fairly straightforward and can be seen in the final product.
-
-Since the compilation and launch of this project are complicated, a demo video with be created.
